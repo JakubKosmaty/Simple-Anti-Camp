@@ -3,7 +3,7 @@
     "Camp_Message"
     {
         "#format"	"{1:N}"
-        "en"        "[{lightpurple}Anty-Camp{default}] Player {orange}{1} {default}is camping!"
+        "en"        "[{lightpurple}Anti-Camp{default}] Player {orange}{1} {default}is camping!"
         "pl"        "[{lightpurple}Anty-Camp{default}] Gracz {orange}{1} {default}kampi!"
     }
 }
