@@ -30,7 +30,6 @@ public Plugin myinfo =
 	url		= URL
 };
 
-
 public void OnPluginStart()
 {
     HookEvent("round_end", Event_RoundEnd, EventHookMode_Pre);
@@ -94,7 +93,6 @@ public Action Event_RoundEnd(Event hEvent, char[] sEvName, bool bDontBroadcast)
             g_iCampCount[i] = 0;
         }
     }
-
 }
 
 public Action Event_PlayerDeath(Event hEvent, char[] sEvName, bool bDontBroadcast)
