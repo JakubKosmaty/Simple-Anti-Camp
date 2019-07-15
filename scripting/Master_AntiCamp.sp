@@ -57,7 +57,7 @@ void LoadSettings()
 
 	if(!FileExists(sBuffer))
 	{
-		SetFailState("Plik nie istnieje: %s", sBuffer);
+		SetFailState("File doesnt exist: %s", sBuffer);
 		return;
 	}
 
@@ -66,7 +66,7 @@ void LoadSettings()
 	if(!kv.ImportFromFile(sBuffer))
 	{
 		delete kv;
-		SetFailState("Nie znaleziono pliku %s!", sBuffer);
+		SetFailState("File not found %s!", sBuffer);
 		return;
 	}
 
